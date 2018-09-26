@@ -6,7 +6,7 @@ def reverse_each_word(msg)
 
   msgArr = msg.split(" ")
   msgArr.collect { |word| word.reverse!}
-  msgArr.join(" ")
+  msgArr = msgArr.join(" ")
   
   msgArr
 end
